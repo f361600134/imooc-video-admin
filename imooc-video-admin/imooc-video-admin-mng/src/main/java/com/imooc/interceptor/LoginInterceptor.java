@@ -8,6 +8,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+/**
+ * 登陆拦截器
+ * @author Administrator
+ *
+ */
 public class LoginInterceptor implements HandlerInterceptor {
 
 	private List<String> unCheckUrls;
