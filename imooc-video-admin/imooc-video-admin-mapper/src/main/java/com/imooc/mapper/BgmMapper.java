@@ -5,6 +5,13 @@ import com.imooc.pojo.BgmExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * 提交测试
+ * @Description 
+ * @author Jeremy
+ * @date 2018年10月2日 下午10:32:07 
+ * @version V1.0
+ */
 public interface BgmMapper {
     int countByExample(BgmExample example);
 
